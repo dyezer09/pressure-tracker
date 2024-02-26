@@ -6,12 +6,13 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch src/scss/main.scss dist/style.css",
-    "dev": "node --watch app.js"
+    "dev": "node --watch src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.56.0",
     "express-handlebars": "^7.1.2",
     "sass": "^1.71.0"
   },

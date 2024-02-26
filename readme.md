@@ -10,4 +10,4 @@ git ch -b express
 - add: pages to ./views & create route (app.js)
 - fix: path to css [https://stackoverflow.com/questions/5924072/express-js-cant-get-my-static-files-why]
 ==commit==
-6. edge layout
+6. 
