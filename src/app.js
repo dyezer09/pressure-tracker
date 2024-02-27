@@ -27,11 +27,25 @@ app.get("/:slug?", (req, res) => {
   res.render("pages/" + slug, { title: slug });
 });
 
+
+
+
+
+
 app.get("/bs5/:slug?", (req, res) => {
   let slug = req.params.slug
   if (slug === undefined) slug = "index"
-  res.render("pages/bs5/" + slug, { layout: 'main2', title: slug });
+  res.render("pages/bs5/" + slug, { layout: "main2" ,title: slug });
 });
+
+
+
+
+
+
+
+
+
 
 app.get("/all", (req, res) => {
   res.sendFile(__dirname + "/pages/all.html");
